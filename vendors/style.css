@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-box{
+    padding: 6em;
+}
+
+.banner-slider {
+    margin-top: 10%;
+    border-radius: 15px;
+
+    background-color: #f5d7c6;
+}
+
+.banner-slider .banner-info h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.banner-info .price {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.btn {
+    color: #FFF;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #FF1B74, #f5337d);
+    padding: 5px 15px;
+}
+
+
+
+/* categories part  */ 
+
+.categories P{
+    font-size: 2em;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.watch,
+.bag,
+.shoe{
+    border-radius: 15px;
+}
+
+.categories .watch{
+    background-color: mediumvioletred;
+}
+
+.bag{
+    background-color: royalblue;
+}
+
+.shoe{
+    background-color: sandybrown;
+}
+
+/* shoe  */
+
+.shoes span,
+.bags span{
+    font-size: 2em;
+}
+
+.shoes .shoe-info .btn{
+    margin-top: 2em;
+}
+
+/* subscirbe  */
+
+.subscribe .container{
+        background-color: #f5d7c6;
+}
+

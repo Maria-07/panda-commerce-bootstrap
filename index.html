@@ -19,9 +19,9 @@
 
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar  navbar-expand-lg navbar-light bg-light fixed-top">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
+                    <a class="navbar-brand" href="#"><img src="./resources/images/logo.png" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -33,37 +33,259 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
+                                <a class="nav-link" href="#shoes">Shoes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                <a class="nav-link" href="#bags">Backpack</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Subscribe</a>
                             </li>
                         </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
                     </div>
                 </div>
             </nav>
+
+            <!-- image-slider  -->
+
+            <div class="banner-slider">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row p-5 d-flex align-items-center">
+                                <div class="col-lg-7 col-sm-6">
+                                    <div class="banner-info">
+                                        <h1>Cool Dude Headphone</h1>
+                                        <p>This is the best headphone in the world for people who just want to waste
+                                            time in
+                                            front of funky world.</p>
+                                        <span class="price d-block">$1200</span>
+                                        <button class="btn mt-3">buy now</button>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-5 col-sm-6">
+                                    <img src="./resources/images/banner-images/headphone.png" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row p-5 d-flex align-items-center">
+                                <div class="col-lg-7 col-sm-6">
+                                    <div class="banner-info">
+                                        <h1>Cool Dude Headphone</h1>
+                                        <p>This is the best headphone in the world for people who just want to waste
+                                            time in
+                                            front of funky world.</p>
+                                        <span class="price d-block">$1200</span>
+                                        <button class="btn mt-3">buy now</button>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-5 col-sm-6">
+                                    <img src="./resources/images/banner-images/tv.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row p-5 d-flex align-items-center">
+                                <div class="col-lg-7 col-sm-6">
+                                    <div class="banner-info">
+                                        <h1>Cool Dude Headphone</h1>
+                                        <p>This is the best headphone in the world for people who just want to waste
+                                            time
+                                            in
+                                            front of funky world.</p>
+                                        <span class="price d-block">$1200</span>
+                                        <button class="btn mt-3">buy now</button>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-5 col-sm-6">
+                                    <img src="./resources/images/banner-images/xbox.png" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
         </div>
     </header>
 
+    <main>
 
+        <!--categories part  -->
+
+        <section class="categories section-box">
+            <div class="container">
+                <div class="row g-4">
+                    <div class=" col-lg-4 col-md-6">
+                        <div class="watch flex-wrap p-3 d-flex justify-content-evenly align-items-center">
+                            <p>Watch</p>
+                            <img class="img-fluid" src="./resources/images/categories/watch.png" alt="">
+                        </div>
+                    </div>
+                   <div class=" col-lg-4 col-md-6">
+                       <div class="shoe flex-wrap p-3 d-flex justify-content-evenly align-items-center">
+                           <p>Shoes</p>
+                           <img class="img-fluid" src="./resources/images/categories/shoes.png" alt="">
+                       </div>
+                   </div>
+                   <div class="col-lg-4">
+                       <div class="bag flex-wrap p-3 d-flex justify-content-evenly align-items-center">
+                           <p>Bag</p>
+                           <img class="img-fluid" src="./resources/images/categories/bag.png" alt="">
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- shoe  -->
+
+        <section class="shoes section-box" id="shoes">
+            <div class="container">
+                <h1 class="section-head my-2">Shoe</h1>
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="p-4 h-100 shadow-lg shoe-card">
+                            <div class="shoe-img">
+                                <img class="img-fluid" src="./resources/images/shoes/shoe-1.png" alt="">
+                            </div>
+                            <div class="shoe-info">
+                                <h3>Supply 350</h3>
+                                <p>This is a longer card with supporting text below as a natural lead-in to additional.
+                                </p>
+                                <span class="price d-block">$1200</span>
+                                <button class="btn mt-3">buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="p-4 h-100 shadow-lg shoe-card">
+                            <div class="shoe-img">
+                                <img class="img-fluid" src="./resources/images/shoes/shoe-2.png" alt="">
+                            </div>
+                            <div class="shoe-info">
+                                <h3>Supply 350</h3>
+                                <p>This is a longer card with supporting text below as a natural lead-in to additional.
+                                </p>
+                                <span class="price d-block">$1200</span>
+                                <button class="btn mt-3">buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="p-4 h-100 shadow-lg shoe-card">
+                            <div class="shoe-img">
+                                <img class="img-fluid" src="./resources/images/shoes/shoe-3.png" alt="">
+                            </div>
+                            <div class="shoe-info">
+                                <h3>Supply 350</h3>
+                                <p>This is a longer card with supporting text below as a natural lead-in to additional.
+                                </p>
+                                <span class="price d-block">$1200</span>
+                                <button class="btn mt-3">buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- bags-categories -->
+
+        <section class="bags section-box" id="bags">
+            <div class="container">
+                <h1 class="section-head my-4">Bags</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card border shadow-lg h-100">
+                            <img src="./resources/images/bags/bag-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3>Red Laltu Bag</h3>
+                                <span class="price d-block my-2">$1200</span>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn">buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border shadow-lg h-100">
+                            <img src="./resources/images/bags/bag-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3>Blue Niltu Bag</h3>
+                                <span class="price d-block my-2">$1200</span>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn">buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border shadow-lg h-100">
+                            <img src="./resources/images/bags/bag-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h3>Black kaltu Bag</h3>
+                                <span class="price d-block my-2">$1200</span>
+                                <p class="card-text mb-4">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This card has even longer content than the first to
+                                    show that equal height action.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn">buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- subscribe section  -->
+
+        <section class="subscribe py-5">
+            <div class="rounded py-5 container d-flex justify-content-center align-items-center">
+                <div>
+                    <h2>LET'S STAY IN TOUCH</h2>
+                    <p>Get updates on sales, specials and more</p>
+                    <input type="email" name="" placeholder="your email name" value="">
+                    <br>
+                    <button class="btn my-2">SUBMIT</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container text-center">
+            <p>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
+        </div>
+    </footer>
 
 
 
